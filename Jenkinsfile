@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ankit-jagtap-devops/terraform-eks-nodegroup.git'
+                git 'https://github.com/GetPlaced60/terraform-automation-eks-nodegroup.git'
             }
         }
     
